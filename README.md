@@ -1,2 +1,2 @@
 # RTTY_Transceiver
-The Arduino programs that drive two analog circuits, an IR transmitter and a data receiver, for a radioteletype communication system.
+The Arduino programs that drive two analog circuits, an IR transmitter and a data receiver, for a radioteletype communication system. The Arduino programs that drive two analog circuits, an IR transmitter and a data receiver. The transmitter program converts a string to binary and uses space and mark frequencies to output the correct square wave to the IR LED. The receiving-end code detects if the comparator in the circuit is high or low, and adds a corresponding 1 or 0 to the UART data packet, which is then converted back into ASCII text and displayed in the Arduino terminal.
